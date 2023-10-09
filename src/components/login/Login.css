@@ -1,0 +1,42 @@
+.login-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 50px;
+}
+
+.login-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    background-color: #f2f2f2;
+    height: 50vh;
+    width: 30vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.form-container p {
+    display: flex; 
+}
+
+.form-container input {
+ border: 1px solid black;
+ color: black;
+ background-color: white;
+ border-radius: 16px;
+ width: 20vw;
+ height: 3.5vh;
+ justify-content: center;
+ font-family: 'Poppins';
+}

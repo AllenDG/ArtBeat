@@ -10,8 +10,10 @@
   cursor: pointer;
 }
 .team .details {
+  margin: 10px;
   text-align: center;
-  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
 }
 .team .img {
   width: 90px;
@@ -48,6 +50,7 @@
 .team i {
   color: grey;
   margin-right: 5px;
+ 
 }
 .team ul {
   display: inline-block;
@@ -70,3 +73,7 @@
   color: white;
   font-size: 20px;
 }
+#location-icon{
+  margin-top: 30px;
+}
+

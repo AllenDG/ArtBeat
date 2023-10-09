@@ -1,14 +1,14 @@
 import React from "react"
 import Heading from "../../common/Heading"
-import "./price.css"
+import "./gallery.css"
 import PriceCard from "./PriceCard"
 
-const Price = () => {
+const Gallery = () => {
   return (
     <>
       <section className='price padding'>
         <div className='container'>
-          <Heading title='Select Your Package' subtitle='At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores' />
+          <Heading title='Gallery'/>
           <PriceCard />
         </div>
       </section>
@@ -16,4 +16,4 @@ const Price = () => {
   )
 }
 
-export default Price
+export default Gallery
