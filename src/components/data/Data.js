@@ -12,17 +12,22 @@ export const nav = [
     path: "/services",
   },
   {
-    text: "blog",
-    path: "/blog",
+    text: "events",
+    path: "/events",
   },
   {
-    text: "pricing",
-    path: "/pricing",
+    text: "gallery",
+    path: "/gallery",
   },
   {
     text: "contact",
     path: "/contact",
   },
+]
+export const signin = [
+  {
+    path: "/login"
+  }
 ]
 export const featured = [
   {
@@ -159,107 +164,85 @@ export const location = [
 export const team = [
   {
     list: "50",
-    cover: "../images/customer/team-6.jpg",
-    address: "",
+    cover: "../images/customer/allen.jpg",
+    address: "Pangasinan",
     name: "Allen De Guzman",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
-    cover: "../images/customer/team-6.jpg",
-    address: "",
-    name: "Allen De Guzman",
+    cover: "../images/customer/angel.jpg",
+    address: "Pangasinan",
+    name: "Angel Coquia",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
-    cover: "../images/customer/team-6.jpg",
-    address: "",
-    name: "Allen De Guzman",
+    cover: "../images/customer/michael.jpg",
+    address: "Pangasinan",
+    name: "Michael Lameg",
+    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+  },
+  {
+    list: "50",
+    cover: "../images/customer/yuri.jpg",
+    address: "Pangasinan",
+    name: "Yuri Ronquillo",
+    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+  },
+  {
+    list: "50",
+    cover: "../images/customer/jackman.png",
+    address: "Pangasinan",
+    name: "Jackman Galiste",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
     
   
   
 ]
-export const price = [
+export const gallery = [
   {
-    plan: "Basic",
-    price: "29",
-    ptext: "per user, per month",
-    list: [
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "99.5% Uptime Guarantee",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "120GB CDN Bandwidth",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "5GB Cloud Storage",
-      },
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Personal Help Support" },
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Enterprise SLA" },
-    ],
+    "id": 1,   
+    "image": "../images/gallery/koala.jpg"
   },
   {
-    best: "Best Value",
-    plan: "Standard",
-    price: "49",
-    ptext: "per user, per month",
-    list: [
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "99.5% Uptime Guarantee",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "150GB CDN Bandwidth",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "10GB Cloud Storage",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "Personal Help Support",
-      },
-      {
-        change: "color",
-        icon: <i class='fa-solid fa-x'></i>,
-        text: "Enterprise SLA",
-      },
-    ],
+    "id": 2,
+    "image": "../images/gallery/soo.jpg"
   },
   {
-    plan: "Platinum",
-    price: "79",
-    ptext: "2 user, per month",
-    list: [
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "100% Uptime Guarantee",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "200GB CDN Bandwidth",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "20GB Cloud Storage",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "Personal Help Support",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "Enterprise SLA",
-      },
-    ],
+    "id": 3,
+    "image": "../images/gallery/frozix.jpg"
   },
+  {
+    "id": 4,
+    "image": "../images/gallery/sehun.jpg"
+  },
+  {
+    "id": 5,
+    "image": "../images/gallery/study.jpg"
+  },
+  {
+    "id": 6,
+    "image": "../images/gallery/tim.jpg"
+  },
+  {
+    "id": 7,
+    "image": "../images/gallery/frozix1.jpg"
+  },
+  {
+    "id": 8,
+    "image": "../images/gallery/chen.jpg"
+  },
+  {
+    "id": 9,
+    "image": "../images/gallery/frozix2.jpg"
+  },
+  {
+    "id": 10,
+    "image": "../images/gallery/chihiro.jpg"
+  },
+  
 ]
 export const footer = [
   {

@@ -1,12 +1,15 @@
 import React, { useState } from "react"
 import "./header.css"
 import { nav } from "../../data/Data"
-import { Link } from "react-router-dom"
+import { signin } from "../../data/Data"
+import { Link} from "react-router-dom"
+
 
 const Header = () => {
   const [navList, setNavList] = useState(false)
 
-  return (
+
+return (
     <>
       <header>
         <div className='container flex'>
@@ -26,9 +29,9 @@ const Header = () => {
             <h4>
               
             </h4>
-            <button className='btn1'>
+            <Link to='/login'>
               <i className='fa fa-sign-out'></i> Sign In
-            </button>
+            </Link>
           </div>
 
           <div className='toggle'>
